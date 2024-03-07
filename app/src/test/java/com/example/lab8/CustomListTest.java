@@ -12,5 +12,9 @@ import java.util.ArrayList;
 
 public class CustomListTest {
 
-
+  @Test
+  void testAdd() {
+    CityList cityList = new CityList();
+    cityLits.add(new City("Regina", "Saskatchewan"));
+  }
 }
